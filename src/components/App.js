@@ -202,9 +202,9 @@ const App = ()=>{
     <h1>Our Menu</h1>
     <div className='btn__wrapper'>
         <button>All</button>
-        <button onClick={()=>setDishes('breakfast')}>Breakfast</button>
-        <button onClick={()=>setDishes('lunch')}>Lunch</button>
-        <button onClick={()=>setDishes('shakes')}>Shakes</button>
+        <button onClick={()=>setDishes('breakfast')} id='filter-btn-1'>Breakfast</button>
+        <button onClick={()=>setDishes('lunch')} id='filter-btn-2'>Lunch</button>
+        <button onClick={()=>setDishes('shakes')} id='filter-btn-3'>Shakes</button>
     </div>
     <div className='dishesContainer'>
         {
