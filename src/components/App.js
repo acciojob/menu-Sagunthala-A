@@ -198,7 +198,7 @@ const App = ()=>{
     const [dishes,setDishes] = useState('all')
 
   return (
-    <div className='main'>
+    <div id='main'>
     <h1>Our Menu</h1>
     <div className='btn__wrapper'>
         <button>All</button>
