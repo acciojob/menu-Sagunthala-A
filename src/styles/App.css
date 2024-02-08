@@ -5,8 +5,57 @@ h1 {
     
 
 button{
+
     color: #27aedb;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
+
+.btn__wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+}
+
+.dishesContainer{
+    margin:4% 10%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dishesContainer__items{
+    display: flex;
+    align-items: center;
+}
+
+.dishesContainer__title{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.dishesContainer__description{
+    text-wrap: wrap;
+    width:80%;
+}
+
+/* h1 {
+    color: #27aedb;
+    text-align: center;
+    }
+    
+
+button{
+    color: #27aedb;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 5rem;
+} */
